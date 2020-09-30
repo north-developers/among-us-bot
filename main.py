@@ -1,4 +1,6 @@
 import telebot
+import os
+
 from sticker import among_us
   
 token = str(os.environ.get('BOT_TOKEN'))
