@@ -6,7 +6,7 @@ import requests
 
 
 def among_us(text):
-    url = "https://raw.githubusercontent.com/KeyZenD/AmongUs/master/"
+    url = "https://raw.githubusercontent.com/north-developers/among-us-bot/master/additionally/"
     random = randint(1,12)
     
     font = ImageFont.truetype(BytesIO(requests.get(url + "bold.ttf").content), 60) 
