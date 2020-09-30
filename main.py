@@ -1,10 +1,8 @@
 import telebot
-
-import config
 from sticker import among_us
   
-
-bot = telebot.TeleBot(config.token)
+token = str(os.environ.get('BOT_TOKEN'))
+bot = telebot.TeleBot(token)
 
 
 @bot.message_handler(commands=['start', 'help'])
